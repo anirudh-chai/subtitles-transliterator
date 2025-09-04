@@ -1,0 +1,23 @@
+# SRT Transliteration Project Requirements
+# 
+# This project consists of two main scripts:
+# 1. translate.py - Transliterates SRT files from Tinglish to Telugu using Gemini AI
+# 2. cleanup_srt.py - Cleans up formatting and replaces timestamps with originals
+#
+# External Dependencies
+requests>=2.31.0
+
+# Built-in Python modules (no installation required):
+# - os
+# - time
+# - random
+# - re
+# - pathlib
+# - typing
+#
+# Installation:
+# pip install -r requirements.txt
+#
+# Usage:
+# 1. python3 translate.py
+# 2. python3 cleanup_srt.py
